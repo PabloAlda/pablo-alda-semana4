@@ -12,9 +12,9 @@ class BankAccount:
     def get_balance(self):
         return self.balance
 
-class SavingAccount(BankAccount)
-    def __init__(self,account)
-
+class SavingAccount(BankAccount):
+    def __init__(self,account_number,balance):
+        super().__init__(self,account_number,balance)
 
 bank_account1 = BankAccount("ES12345678998765432")
 
